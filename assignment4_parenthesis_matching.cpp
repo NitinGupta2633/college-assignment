@@ -49,7 +49,7 @@ class stack{
 int main()
 {
 	stack s;
-	char arr[]={"[]}"};
+	char arr[]={"[][]{}"};
 	for(int i=0;arr[i]!='\0';i++)
 	{
 		s.push_check(arr[i]);
